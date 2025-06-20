@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~VQ4GhIZA#ICTxBgZV_hppiOWFM9QPeJLaRGC4AohKsa-JcqXQH5Y ",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~hIwxCYLK#JPQ_g35KlgzJwSs1IkCxqEbG6jUAaXPzahc62Ssz7sA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -20,7 +20,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY PAPI-BROWN 🤍*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -62,7 +62,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // public/private/inbox/group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // kick user if share link 
@@ -72,7 +72,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // auto stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
